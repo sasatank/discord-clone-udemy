@@ -1,0 +1,87 @@
+.sidebar {
+  display: flex;
+  flex: 0.3;
+  height: 100vh;
+}
+.sidebar .sidebarLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 7px 15px;
+}
+.sidebar .sidebarLeft .serverIcon {
+  width: 60px;
+  height: 60px;
+  background-color: #33363d;
+  border-radius: 9999px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.sidebar .sidebarLeft .serverIcon img {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sidebar .sidebarRight {
+  background-color: #2b2d33;
+  width: 300px;
+  position: relative;
+  flex-grow: 1;
+}
+.sidebar .sidebarRight .sidebarTop {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.sidebar .sidebarRight .sidebarChannels {
+  padding: 13px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarHeader {
+  display: flex;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarAddIcon {
+  cursor: pointer;
+}
+.sidebar .sidebarRight .sidebarFooter {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -3px;
+  border-top: 1px solid #686a6e;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount {
+  display: flex;
+  align-items: center;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount img {
+  width: 60px;
+  border-radius: 50%;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName {
+  margin-left: 5px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName h4 {
+  color: white;
+  font-weight: 500;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName span {
+  color: #686a6e;
+}/*# sourceMappingURL=Sidebar.css.map */
